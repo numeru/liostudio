@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30.515" height="21.676" viewBox="0 0 30.515 21.676">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 1.5px;
+      }
+
+      .cls-1 {
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="그룹_83" data-name="그룹 83" transform="translate(1.125 0.559)">
+    <g id="그룹_30" data-name="그룹 30" transform="translate(0 0)">
+      <g id="그룹_29" data-name="그룹 29" transform="translate(0 0)">
+        <path id="패스_100" data-name="패스 100" class="cls-1" d="M-2551.939,2829.142l-11.489-10.283,11.481-10.276" transform="translate(2563.428 -2808.583)"/>
+        <path id="패스_359" data-name="패스 359" class="cls-2" d="M0,0H29.39" transform="translate(0 10.276)"/>
+      </g>
+    </g>
+  </g>
+</svg>

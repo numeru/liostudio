@@ -1,0 +1,29 @@
+#default-poster {
+  z-index: 98;
+}
+
+model-viewer {
+  width: 100%;
+  height: 80vh;
+  margin: 0 auto;
+  background-color: black;
+  outline: none;
+  --poster-color: transparent;
+}
+
+#lazy-load-poster {
+  z-index: 99;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  /* background-image: url("/images/home/test_3d.png"); */
+  background-image: url("/images/home/loading_temp.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+}

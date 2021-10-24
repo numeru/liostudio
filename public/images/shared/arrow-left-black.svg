@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45.189" height="45.189" viewBox="0 0 45.189 45.189">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <g id="그룹_82" data-name="그룹 82" transform="translate(-2019.11 -3931.383)">
+    <g id="그룹_81" data-name="그룹 81">
+      <path id="패스_256" data-name="패스 256" class="cls-1" d="M2036.509,3961.119l-7.979-7.141,7.973-7.136"/>
+      <line id="선_100" data-name="선 100" class="cls-1" x2="26.348" transform="translate(2028.53 3953.978)"/>
+    </g>
+    <circle id="타원_15" data-name="타원 15" class="cls-1" cx="21.844" cy="21.844" r="21.844" transform="translate(2019.86 3932.133)"/>
+  </g>
+</svg>

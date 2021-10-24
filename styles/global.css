@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "helvetica";
+  src: url("../public/fonts/helvetica/Helvetica.ttf")
+    format("embedded-opentype");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "helvetica_bold";
+  src: url("../public/fonts/helvetica/HelveticaBold.ttf")
+      format("embedded-opentype"),
+    url("../public/fonts/helvetica/HelveticaBold.ttf") format("woff"),
+    url("../public/fonts/helvetica/HelveticaBold.ttf") format("ttf"),
+    url("../public/fonts/helvetica/HelveticaBold.ttf") format("truetype"),
+    url("../public/fonts/helvetica/HelveticaBold.ttf") format("svg");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "notosans_bold";
+  src: url("../public/fonts/notosans/NotoSansCJKkr-Bold.otf")
+      format("embedded-opentype"),
+    url("../public/fonts/notosans/NotoSansCJKkr-Bold.otf") format("woff"),
+    url("../public/fonts/notosans/NotoSansCJKkr-Bold.otf") format("ttf"),
+    url("../public/fonts/notosans/NotoSansCJKkr-Bold.otf") format("truetype"),
+    url("../public/fonts/notosans/NotoSansCJKkr-Bold.otf") format("svg");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "notosans_regular";
+  src: url("../public/fonts/notosans/NotoSansCJKkr-Regular.otf")
+      format("embedded-opentype"),
+    url("../public/fonts/notosans/NotoSansCJKkr-Regular.otf") format("woff"),
+    url("../public/fonts/notosans/NotoSansCJKkr-Regular.otf") format("ttf"),
+    url("../public/fonts/notosans/NotoSansCJKkr-Regular.otf") format("truetype"),
+    url("../public/fonts/notosans/NotoSansCJKkr-Regular.otf") format("svg");
+  font-display: swap;
+}
+
+:root {
+  --font-helvetica: "helvetica";
+  --font-helvetica-bold: "helvetica_bold";
+  --font-notosans-regular: "notosans_regular";
+}
+
+* {
+  box-sizing: border-box;
+  text-size-adjust: none;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-helvetica), var(--font-notosans-regular);
+  min-width: 16rem;
+  text-align: justify;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.8;
+}
+
+#__next::-webkit-scrollbar {
+  display: none;
+}
